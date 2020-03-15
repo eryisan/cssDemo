@@ -1,10 +1,173 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <titel>cssDemo</titel>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>cssDemo</title>
+    <link rel="stylesheet" href="css/cssDemo.css">
+</head>
+
+<body>
+    <!--头部-->
+    <div class="header">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png">
+            </a>
+        </div>
+        <!-- 导航 -->
+        <div class="nav">
+            <ul>
+                <li><a href="#aboutAnchor">HOME</a></li>
+                <li><a href="#aboutAnchor">ABOUT</a></li>
+                <li><a href="#galleryAnchor">GALLERY</a></li>
+                <li><a href="#">FACULTY</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--头部结束-->
+
+    <!--主体-->
+    <div class="main">
+        <!-- banner图 -->
+        <div class="banner">
+            <img src="images/banner3.jpg">
+        </div>
+        <!-- 遮罩层 -->
+        <div class="topLayer"></div>
+        <!-- banner图信息栏 -->
+        <div class="userinfo">
+            <form method="POST">
+                <input type="text" name="username" placeholder="your Name" class="info">
+                <input type="tel" name="tel" placeholder="your Phone" class="info">
+                <input type="email" name="email" placeholder="your Email" class="info">
+                <textarea placeholder="Write Your Comment Here"></textarea>
+                <input type="submit" value="SEND MESSAGE" name="submit" class="sub">
+            </form>
+        </div>
+
+        <!-- ABOUT头部 -->
+        <a name="aboutAnchor"></a>
+        <div class="aboutHeader">
+            <h1>ABOUT</h1>
+            <div class="underline"></div>
+            <div class="word">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+        </div>
+
+        <!-- ABOUT中间内容 -->
+        <div class="aboutMain">
+            <div class="mainLeft">
+                A WORD<br>ABOUT US
+            </div>
+            <div class="mainMiddle">
+                <img src="images/bb3.jpg">
+            </div>
+            <div class="mainRight">
+                <div class="smallbox">
+                    <h2>70000</h2>
+                    <div class="underline2"></div>
+                    <div>STUDENT</div>
+                </div>
+                <div class="smallbox">
+                    <h2>600</h2>
+                    <div class="underline2"></div>
+                    <div>FACULTY</div>
+                </div>
+            </div>
+            <div class="mainButton">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button type="button">EXPLORE</button>
+            </div>
+        </div>
+
+        <!-- ABOUT图文混排 -->
+        <div class="aPicAndDes">
+            <div class="aPic">
+                <img src="images/b1.jpg">
+            </div>
+            <div class="aDes triangle">
+                <h2>LIBRARY</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <button type="button">EXPLORE</button>
+            </div>
+            <div class="aPic">
+                <img src="images/b2.jpg">
+            </div>
+            <div class="aDes triangle">
+                <h2>LIBRARY</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <button type="button">EXPLORE</button>
+            </div>
+            <div class="aDes triangle2">
+                <h2>LIBRARY</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <button type="button">EXPLORE</button>
+            </div>
+            <div class="aPic">
+                <img src="images/b2.jpg">
+            </div>
+            <div class="aDes triangle2">
+                <h2>LIBRARY</h2>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                <button type="button">EXPLORE</button>
+            </div>
+            <div class="aPic">
+                <img src="images/b2.jpg">
+            </div>
+        </div>
+
+        <!-- GALLERY头部 -->
+        <a name="galleryAnchor"></a>
+        <div class="galleryHeader">
+            <h1>GALLERY</h1>
+            <div class="underline"></div>
+            <div class="word">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+        </div>
+
+        <!-- GALLERY图文混排 -->
+        <div class="gPicAndDes">
+            <ul>
+                <li>
+                    <img src="images/03-01.jpg">
+                    <p>SCIENCE LAB</p>
+                </li>
+                <li>
+                    <img src="images/03-02.jpg">
+                    <p>INDOOR STADIUM</p>
+                </li>
+                <li>
+                    <img src="images/03-03.jpg">
+                    <p>TRANSPORTATION</p>
+                </li>
+                <li>
+                    <img src="images/03-04.jpg">
+                    <p>KIDS ROOM</p>
+                </li>
+                <li>
+                    <img src="images/03-05.jpg">
+                    <p>MEDITATION CLASSES</p>
+                </li>
+                <li>
+                    <img src="images/03-06.jpg">
+                    <p>KIDS PLAY GROUND</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            &copy 2016 imooc.com 京ICP备13046642号
+        </div>
+    </div>
+    <!--主体结束 -->
+
+</body>
+
 </html>
